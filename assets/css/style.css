@@ -68,10 +68,15 @@ header h3 {
 .seite-1 {
     background-image: url("../images/portfolio2.jpg");
     background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
-    color: white;
     position: relative;
+    color: white;
 }
 
 h4 {
@@ -107,6 +112,11 @@ h2 {
 .seite-2 {
     background-image: url("../images/portfolio3.png");
     background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -114,6 +124,11 @@ h2 {
 
 .seite-3 {
     background-image: url("../images/portfolio4.jpg");
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -123,6 +138,11 @@ h2 {
 
 .seite-4 {
     background-image: url("../images/portfolio5.png");
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
