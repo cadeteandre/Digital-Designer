@@ -2,10 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-align: center;
     font-family: "WorkSans";
     font-weight: 400;
     /* max-width: 1404px; */
+}
+
+html {
+    text-align: center;
 }
 
 @font-face {
@@ -59,6 +62,30 @@ header h3 {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    color: white;
+}
+
+h4 {
+    font-size: 22px;
+    margin: 40px 0 80px 0;
+}
+
+.panel-left {
+    display: inline-block;
+    margin: 193px 0 40px 220px;
+    text-align: left;
+}
+
+.panel-right {
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.panel-right p {
+    font-size: 165px;
+    font-family: "fjallaOne";
+    color: #9E9E9E;
+    opacity: 20%;
 }
 
 h2 {
