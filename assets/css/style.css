@@ -5,6 +5,7 @@
     text-align: center;
     font-family: "WorkSans";
     font-weight: 400;
+    /* max-width: 1404px; */
 }
 
 @font-face {
@@ -24,6 +25,20 @@
 
 a {
     text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #ffffff00; 
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 16px 26px;
+    text-align: center;
+    font-family: "fjallaOne";
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 header p {
@@ -46,18 +61,11 @@ header h3 {
     height: 100vh;
 }
 
-.seite-1 p {
-    font-size: 20px;
-}
-
-.seite-1 h2 {
+h2 {
     font-size: 112px;
     font-family: "DidactGothic";
 }
 
-.seite-1 button {
-    padding: 16px 26px;
-}
 
 .seite-2 {
     background-image: url("../images/portfolio3.png");
@@ -78,10 +86,26 @@ header h3 {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    border: 2px solid red;;
 }
 
 .seite-5 {
     background-color: #000000;
+    color:white;
     width: 100vw;
     height: 100vh;
 }
+
+
+.seite-5 p {
+    font-size: 22px;
+    color:#666666;
+    margin-bottom: 70px;
+}
+
+.seite-5 h2 {
+    margin: 130px auto 130px auto;
+
+}
+
+
