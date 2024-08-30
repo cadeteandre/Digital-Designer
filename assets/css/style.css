@@ -44,6 +44,14 @@ button {
     font-size: 16px;
 }
 
+.button-schwarz {
+    border: 2px solid black;
+}
+
+.button-schwarz a {
+     color: black;
+}
+
 header p {
      font-size: 20px;
 }
@@ -63,6 +71,7 @@ header h3 {
     width: 100vw;
     height: 100vh;
     color: white;
+    position: relative;
 }
 
 h4 {
@@ -71,21 +80,22 @@ h4 {
 }
 
 .panel-left {
-    display: inline-block;
     margin: 193px 0 40px 220px;
     text-align: left;
+    position: absolute;
 }
 
 .panel-right {
-    display: inline-block;
-    margin-right: 120px;
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
 }
 
 .panel-right p {
     font-size: 165px;
     font-family: "fjallaOne";
     color: #9E9E9E;
-    opacity: 20%;
+    opacity: 50%;
 }
 
 h2 {
@@ -99,6 +109,7 @@ h2 {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 .seite-3 {
@@ -106,6 +117,8 @@ h2 {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    position: relative;
+    color: white;
 }
 
 .seite-4 {
@@ -113,7 +126,7 @@ h2 {
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    border: 2px solid red;;
+    position: relative;
 }
 
 .seite-5 {
@@ -121,6 +134,7 @@ h2 {
     color:white;
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 
@@ -133,6 +147,14 @@ h2 {
 .seite-5 h2 {
     margin: 130px auto 130px auto;
 
+}
+
+.absatz-rechts {
+    text-align: left;
+    width: 700px;
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
 }
 
 
