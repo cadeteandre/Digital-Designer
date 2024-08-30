@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "WorkSans";
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url(../fonts/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "DidactGothic";
+    src: url("../fonts/DidactGothic-Regular.ttf");
+}
+
+@font-face {
+    font-family: "fjallaOne";
+    src: url("../fonts/FjallaOne-Regular.ttf");
+}
+
+a {
+    text-decoration: none;
+}
+
+header p {
+     font-size: 20px;
+}
+
+header h1 {
+    font-size: 100px;
+    font-family: "DidactGothic";
+}
+
+header h3 {
+    font-size: 160px;
+}
+
+.seite-1 {
+    background-image: url("../images/portfolio2.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.seite-1 p {
+    font-size: 20px;
+}
+
+.seite-1 h2 {
+    font-size: 112px;
+    font-family: "DidactGothic";
+}
+
+.seite-1 button {
+    padding: 16px 26px;
+}
+
+.seite-2 {
+    background-image: url("../images/portfolio3.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.seite-3 {
+    background-image: url("../images/portfolio4.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.seite-4 {
+    background-image: url("../images/portfolio5.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.seite-5 {
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+}
